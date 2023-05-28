@@ -1,8 +1,14 @@
 .about_container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    gap: 1rem; /* Adds some space between all items in the flex container */
 }
+
 .about_me {
-    width: 100%;
+    width: 80%;
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
@@ -10,36 +16,44 @@
         var(--color-dark-blue),
         transparent
     );
-    display:grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 1rem; /* Adds some space inside the about_me box */
 }
 
+.about_title_small, .about_title_large {
+    text-align: center; 
+}
+.about_title_large {
+    margin-bottom: 0rem;
+}
+
+.btn-primary {
+    padding: 1rem 2rem; /* Adjust as needed */
+    border-radius: 0.5rem; /* Adjust as needed */
+    color: white; /* Adjust as needed */
+    background-color: var(--color-dark-blue); /* Adjust as needed */
+    text-decoration: none; /* Removes underline from link */
+    font-size: 1rem; /* Adjust as needed */
+}
 
 /* --- Media Queries for (Medium devices) ------- */
 
 @media screen and (max-width: 1024px) {
-    .about_container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
     .about_me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 70%;
+        margin: 2rem auto;
     }
 }
-
-
 
 /* --- Media Queries for (Small devices) ------- */
 
 @media screen and (max-width: 600px) {
-    .about_container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
     .about_me {
-        width: 65%;
-        margin: 0rem auto 3rem;
+        width: 85%;
+        margin: 1rem auto;
     }
 }
-

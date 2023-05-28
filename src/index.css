@@ -59,7 +59,7 @@ body {
   section > h5 {
     text-align: center;
     color: white;
-    font-weight: 300;
+    font-weight: bold;
   }
   
   section > h2 {
@@ -95,6 +95,7 @@ body {
   .btn-primary {
     background-color: var(--color-light-blue);
     color: var(--color-dark-blue);
+    font-weight: bold;
   }
   
   .btn-primary:hover {
