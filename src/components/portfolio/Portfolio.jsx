@@ -9,38 +9,38 @@ const Portfolio = () => {
 
             <div className="container portfolio_container">
                 <article className="portfolio_items">
-                    <div className="portfolio_item-image"><img src={IMG1} /></div>
+                    <div className="portfolio_item-image"><img src={IMG1} alt = "portfolio1" /></div>
                     <h3>Title1</h3>
                     <div className='portfolio_item-cta'>
                         <a href="https://github.com" className='btn'>Github</a>
-                        <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href="https://github.com" className='btn btn-primary' rel="noopener noreferrer" target='_blank'>Live Demo</a>
                     </div>
 
                 </article>
                 <article className="portfolio_items">
-                    <div className="portfolio_item-image"><img src={IMG1} /></div>
+                    <div className="portfolio_item-image"><img src={IMG1} alt = "portfolio2" /></div>
                     <h3>Title1</h3>
                     <div className='portfolio_item-cta'>
                         <a href="https://github.com" className='btn'>Github</a>
-                        <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href="https://github.com" className='btn btn-primary' rel="noopener noreferrer" target='_blank'>Live Demo</a>
                     </div>
 
                 </article>
                 <article className="portfolio_items">
-                    <div className="portfolio_item-image"><img src={IMG1} /></div>
+                    <div className="portfolio_item-image"><img src={IMG1} alt = "portfolio2"/></div>
                     <h3>Title1</h3>
                     <div className='portfolio_item-cta'>
                         <a href="https://github.com" className='btn'>Github</a>
-                        <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href="https://github.com" className='btn btn-primary' rel="noopener noreferrer" target='_blank'>Live Demo</a>
                     </div>
 
                 </article>
                 <article className="portfolio_items">
-                    <div className="portfolio_item-image"><img src={IMG1} /></div>
+                    <div className="portfolio_item-image"><img src={IMG1} alt = "portfolio2" /></div>
                     <h3>Title1</h3>
                     <div className='portfolio_item-cta'>
                         <a href="https://github.com" className='btn'>Github</a>
-                        <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+                        <a href="https://github.com" className='btn btn-primary' rel="noopener noreferrer" target='_blank'>Live Demo</a>
                     </div>
 
                 </article>

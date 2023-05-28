@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import { BsGraphUp, BsPatchCheckFill } from 'react-icons/bs'
+import { BsGraphUp } from 'react-icons/bs'
 import {FaJava, FaPython, FaReact} from 'react-icons/fa'
 import { SiFlask, SiHackthebox, SiJavascript, SiKotlin, SiMatrix } from 'react-icons/si'
 import { TbLetterC, TbMathFunction } from 'react-icons/tb'
