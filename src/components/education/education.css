@@ -1,0 +1,32 @@
+.education-container {
+    display: flex;
+    min-height: 31.5rem;
+}
+
+
+.school-history-left {
+    background: var(--color-dark-blue);
+    padding: 3rem 0px 3rem 1.5rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    position: relative;
+    flex-wrap: wrap;
+}
+.school-history-left.selected {
+    border-left: 3px solid lightblue;
+}
+
+.right {
+    padding-left: 3.5rem;
+}
+
+.exp-block-wrapper {
+    animation: 0.2s ease 0s 1 normal none running biCHDc;
+    transition: opacity 0.2s ease 0s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
